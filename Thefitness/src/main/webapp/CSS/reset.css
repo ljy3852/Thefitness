@@ -1,67 +1,59 @@
 @charset "UTF-8";
-@import "reset.css";
 
-/* ================ 전체 디자인 스타일 =================== */
-/* ------------------- color --------------------- */
-.bg-light {
-	background-color: var(--sud-color);
-}
-.bg-dark {
-	background-color: var(--main-color);
-}
-.justify-center {
-	justify-content: center;
-}
-.justify-between {
-	justify-content: space-between;
-}
-.align-center {
-	align-items: center;
-}
-.align-self-center {
-	align-self: center;
-}
-.align-content-center {
-	align-content: center;
+:root {
+	--main-color: #000;
+	--sub-color: #FFF;
+	--bg-color1: #4F0600;
+	--bg-color2: #830e04;
+	--text-color1: #666;
+	--text-color2: #EEE;
+	--text-color3: #ffe400;
+	--line-color: #84514d;
+	--point-color: #cf160c;
 }
 
-.gap-1 {
-	gap: 1rem;
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
 }
-.gap-2 {
-	gap: 2rem;
+html {
+	font-size: 20px;
 }
-.gap-3 {
-	gap: 3rem;
-}
-
-.text-cap {
-	text-transform: capitalize;
-}
-.text-upper {
-	text-transform: uppercase;
-}
-.text-lower {
-	text-transform: lowercase;
-}
-/* ------------------ display -------------------- */
-.d-none {
-	display: none;
-}
-.d-flex {
-	display: flex;
+body {
+	font: 1rem/1.5 "Roboto Condensed", "Noto Sans KR";
+	color: var(--sub-color);
+	font-size: .7rem;
+	background-color: var(--bg-color1);
 }
 
-/* ------------------ container ----------------- */
-
-.container {
-	max-width: 800px;
-}
-.mx-auto {
-	margin:0 auto;
+a, a:link {
+	color: inherit;
+	text-decoration: none
 }
 
-/* ---------------- header ------------------- */
-.top-links a {
-	color: var(text-color1);
+ul,ol {
+	list-style: none;
 }
+
+form, fieldset, legend {
+	margin: 0;
+	padding: 0;
+}
+
+.roboto-condensed-medium {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto; /* 다른 뷰포트에서 폰트를 알아서 최적화 */
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans-kr-regular {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} 
+
