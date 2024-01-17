@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import "reset.css";
+
+/* ================ 전체 디자인 스타일 =================== */
+/* ------------------- color --------------------- */
+.bg-light {
+	background-color: var(--sud-color);
+}
+.bg-dark {
+	background-color: var(--main-color);
+}
+.justify-center {
+	justify-content: center;
+}
+.justify-between {
+	justify-content: space-between;
+}
+.align-center {
+	align-items: center;
+}
+.align-self-center {
+	align-self: center;
+}
+.align-content-center {
+	align-content: center;
+}
+
+.gap-1 {
+	gap: 1rem;
+}
+.gap-2 {
+	gap: 2rem;
+}
+.gap-3 {
+	gap: 3rem;
+}
+
+.text-cap {
+	text-transform: capitalize;
+}
+.text-upper {
+	text-transform: uppercase;
+}
+.text-lower {
+	text-transform: lowercase;
+}
+/* ------------------ display -------------------- */
+.d-none {
+	display: none;
+}
+.d-flex {
+	display: flex;
+}
+
+/* ------------------ container ----------------- */
+
+.container {
+	max-width: 800px;
+}
+.mx-auto {
+	margin:0 auto;
+}
+
+/* ---------------- header ------------------- */
+.top-links a {
+	color: var(text-color1);
+}
