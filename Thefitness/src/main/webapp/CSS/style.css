@@ -25,6 +25,9 @@
 .h-400 {
 	height: 400px
 }
+.fs-0 {
+	font-size: 0;
+}
 
 /* ----------- display, flexbox ------------- */
 .d-none {
@@ -221,6 +224,15 @@ nav a:hover {
 	background-repeat: no-repeat;
 }
 
+.sports h3, .member h3 {
+	background-color: var(--main-color);
+}
+.sports h3, .member h3 {
+	font-size: .9rem;		/* 20px x 0.9 = 18px; */
+}
+.sports p, .member p {
+	font-size: .75rem;
+}
 
 
 
