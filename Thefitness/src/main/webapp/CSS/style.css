@@ -75,6 +75,18 @@
 .m-0 {
 	margin:0;
 }
+.my-1 {
+	margin-top:1rem;
+	margin-bottom:1rem;
+}
+.my-2 {
+	margin-top:2rem;
+	margin-bottom:2rem;
+}
+.my-3 {
+	margin-top:3rem;
+	margin-bottom:3rem;
+}
 .mt-1 {
 	margin-top: 1rem
 }
@@ -234,6 +246,15 @@ nav a:hover {
 	font-size: .75rem;
 }
 
+/* ------------------ line -------------------- */
+.line {
+	border:0;
+	height: 1px;
+	background-color: var(--line-color);
+}
 
+.brand {
+	font-size: 14px;
+}
 
 
