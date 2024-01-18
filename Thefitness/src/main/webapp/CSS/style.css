@@ -132,6 +132,26 @@ nav a:hover {
 	color: var(--text-color3)
 } 
 
+/* 	> 자식요소 선택자 */
+#gnb > li {
+	position: relative;
+	cursor: pointer;		/* 커서 포인터 커서위에 마우스클릭 버튼이 계속 있음 */
+}
+#gnb > li:hover .lnb {		/* 드롭다운 구문 */
+	display: block;
+	position: absolute;
+	width: 100%;		/* 부모요소와 같이 100프로로 채운다 */
+	top: 100%;
+	left: 0;
+}
+
+.lnb {
+	background-color: rgba(0,0,0,.5);	/* red, green, blue, alpha(0~1) */
+}
+.lnb li {				/* 글씨 가운데로 센터로 가게 함 */
+	text-align: center;
+	padding : .5em 0;		/* 드롭다운 크기를 부모만큼에 .5로 설정 */
+}
 
 
 
