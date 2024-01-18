@@ -18,6 +18,9 @@
 .text-dark {
 	color: var(--main-color)
 }
+.text-center {
+	text-align: center;
+}
 
 .h-400 {
 	height: 400px
@@ -66,6 +69,42 @@
 .py-2 {
 	padding: 2rem
 }
+.m-0 {
+	margin:0;
+}
+.mt-1 {
+	margin-top: 1rem
+}
+.mt-2 {
+	margin-top: 2rem
+}
+.mt-3 {
+	margin-top: 3rem !important		/* !impartant는 무조건 넣어줌 */
+}
+.mt-4 {
+	margin-top: 4rem
+}
+.mt-5 {
+	margin-top: 5rem
+}
+.pt-1 {
+	padding-top: 1rem;
+}
+.pt-2 {
+	padding-top: 2rem;
+}
+.pt-3 {
+	padding-top: 3rem;
+}
+.mr-1 {
+	margin-right:1rem;
+}
+.mr-2 {
+	margin-right:2rem;
+}
+.mr-3 {
+	margin-right:3rem;
+}
 
 .text-cap {
 	text-transform: capitalize
@@ -75,6 +114,12 @@
 }
 .text-lower {
 	text-transform: lowercase	
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
 }
 
 /* ------------ container ----------- */
@@ -137,7 +182,7 @@ nav a:hover {
 	position: relative;
 	cursor: pointer;		/* 커서 포인터 커서위에 마우스클릭 버튼이 계속 있음 */
 }
-#gnb > li:hover .lnb {		/* 드롭다운 구문 */
+#gnb > li:hover .lnb {		/* 오버랩 드롭다운 구문 */	
 	display: block;
 	position: absolute;
 	width: 100%;		/* 부모요소와 같이 100프로로 채운다 */
@@ -153,7 +198,28 @@ nav a:hover {
 	padding : .5em 0;		/* 드롭다운 크기를 부모만큼에 .5로 설정 */
 }
 
+/* ----------- main  --------- */
 
+.title-text {
+	font-size: 1.2rem;
+}
+.topic {
+	height: 245px;
+}
+.topic h4 {
+	font-size: 1.4rem;
+	color:var(--bg-color1);
+}
+.topic p {
+	font-size: .8rem;
+	color: var(--main-color);
+	
+}
+.bg-topic {
+	background-image: url("../images/topic_bg.jpg");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
 
 
 
